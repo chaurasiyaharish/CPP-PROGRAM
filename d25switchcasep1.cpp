@@ -6,12 +6,12 @@ int main()
     char n, c;
     cout << "enter any charcter \n";
     cin >> n;
-    cout << "select 1 for vowel/consonent nad 2 for gender\n";
+    cout << "select v for vowel/consonent nad g for gender\n";
     cin >> c;
     switch (c)
     {
-    case 1:
-    // case 'V':
+    case 'v':
+    case 'V':
     {
         if (n == 'a' || n == 'i' || n == 'e' || n == 'o' || n == 'u' || n == 'A' || n == 'I' || n == 'E' || n == 'O' || n == 'U')
         {
@@ -23,8 +23,8 @@ int main()
         }
         break;
     }
-    case 2:
-    // case 'G':
+    case 'g':
+    case 'G':
     {
         if (n == 'm' || n == 'M')
         {

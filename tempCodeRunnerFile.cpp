@@ -1,1 +1,1 @@
-   // cout<<s<<"\n";
+w. a program to find out perfect or not perfect no.

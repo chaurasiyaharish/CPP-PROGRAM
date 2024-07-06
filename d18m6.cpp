@@ -13,5 +13,12 @@ int main()
     {
         bill=n*7;
     }
-    else if()
+    else if(n>500)
+    {
+        bill=n*10;
+    }
+    else{
+        cout<<"invalid meter reading";
+    }
+    cout<<"bill  :"<<bill+(bill*.20);
 }

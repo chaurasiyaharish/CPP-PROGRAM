@@ -201,7 +201,7 @@
 // }
 //
 //
-//Q-7 Wap to check the given number zero,positive,negative.
+// Q-7 Wap to check the given number zero,positive,negative.
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -221,24 +221,96 @@
 //         cout<<"negative number";
 //     }
 // }
+// Q-8 wap to given the three number then check the largest number .
+// #include<iostream>
+// using namespace std;
+// int main ()
+// {
+//     int a,b,c;
+//     cout<<"enter three number\n";
+//     cin>>a>>b>>c;
+//     if(a>b && a>c)
+//     {
+//         cout<<"largest number is = "<<a;
+//     }
+//     else if(b>a && b>c)
+//     {
+//          cout<<"largest number is = "<<b;
+//     }
+//     else
+//     {
+//          cout<<"largest number is = "<<c;
+//     }
+// }
 
-#include<iostream>
+// Q-9 wap to check bill using else if condition
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,bill;
+//     cout<<"enter your meter reading\n";
+//     cin>>n;
+//     if(n>=1 && n<=100)
+//     {
+//         bill=n*5;
+//     }
+//     else if(n>100 && n<=500)
+//     {
+//         bill=n*7;
+//     }
+//     else if(n>500)
+//     {
+//         bill=n*10;
+//     }
+//     else{
+//         cout<<"invalid meter reading";
+//     }
+//     cout<<"bill  :"<<n+(bill*20/100);
+// }
+
+// q-10 WAp to display the sum of the value between 50 to 1 using do while loop
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int s=0,a=50;
+//     do{
+//         s=s+a;
+// cout<<s<<"\t";   ydi stape by stape show karana ho to jaise 50 99 147 194
+//         a--;
+//     }while(a>=1);
+// cout<<"total sum :"<<s;
+// }
+
+// Q-11 WAP to display the genrate a table any number using do while loop
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n, a = 1;
+//     cout << "enter any number \n";
+//     cin >> n;
+//     do
+//     {
+//         cout << n * a<<"\n";
+//         a++;
+//     } while (a <= 10);
+// }
+
+// WAP to display the number between 1 to 10 using while loop
+
+#include <iostream>
 using namespace std;
-int main ()
+int main()
 {
-    int a,b,c;
-    cout<<"enter three number\n";
-    cin>>a>>b>>c;
-    if(a>b && a>c)
-    {
-        cout<<"largest number is = "<<a;
-    }
-    else if(b>a && b>c)
-    {
-         cout<<"largest number is = "<<b;
-    }
-    else
-    {
-         cout<<"largest number is = "<<c;
+    int a=1;
+    while(a<=10)
+    { 
+        cout<<a<<"\n";
+        a++;
     }
 }

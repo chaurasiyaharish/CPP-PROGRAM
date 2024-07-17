@@ -303,14 +303,34 @@
 
 // WAP to display the number between 1 to 10 using while loop
 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int a=1;
+//     while(a<=10)   
+//     { 
+//         cout<<a<<"\n";
+//         a++;
+//     }
+// }
+
+//WAP to find  the given number of power and base  using while loop
+
+
 #include <iostream>
 using namespace std;
 int main()
 {
-    int a=1;
-    while(a<=10)
-    { 
-        cout<<a<<"\n";
-        a++;
+    int power,base, r=1;
+    cout<<"enter base\n";
+    cin>>base;
+    cout<<"enter power\n";
+    cin>>power;
+    while(power>=1)
+    {
+    r=r*base;
+    power--;
     }
+    cout<<"result : "<<r;
 }

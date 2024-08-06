@@ -50,29 +50,29 @@
 
 // Q-3   WAp to find the even number given in 2d array
 
-//     #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int arr[2][3];
-//     for(int r=0;r<=1;r++)
-//     {
-//         for(int c=0;c<=2;c++)
-//         {
-//             cin>>arr[r][c];
-//         }
-//     }
-//      cout<<"output is\n ";
-//      for(int r=0;r<2;r++)
-//      {
-//         for(int c=0;c<3;c++){
-//             if(arr[r][c]%2==0){
-//                cout<<arr[r][c]<<"\t";
-//             }
-//         }cout<<"\n";
-//      }
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[2][3];
+    for(int r=0;r<=1;r++)
+    {
+        for(int c=0;c<=2;c++)
+        {
+            cin>>arr[r][c];
+        }
+    }
+     cout<<"output is\n ";
+     for(int r=0;r<2;r++)
+     {
+        for(int c=0;c<3;c++){
+            if(arr[r][c]%2==0){
+               cout<<arr[r][c]<<"\t";
+            }
+        }cout<<"\n";
+     }
 
-//     }
+    }
 
 // Q-4WAp to display the sum of the value of two dimension array.
 
@@ -148,24 +148,24 @@
 
 //Q-7 WAp to 
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    int a[2][2] = {2, 3, 4, 5};
-    int b[2][2] = {6, 1, 2, 9};
-    for (int r = 0; r < 2; r++)
-    {
-        for (int c = 0; c < 2; c++)
-        {   
-            if(a[r][c]%2==0){
-            cout << a[r][c] + b[r][c] << "\t";
-            }
-            else
-            {
-           cout << a[r][c] - b[r][c] << "\t";     
-            }
-        }
-        cout << "\n";
-    }
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int a[2][2] = {2, 3, 4, 5};
+//     int b[2][2] = {6, 1, 2, 9};
+//     for (int r = 0; r < 2; r++)
+//     {
+//         for (int c = 0; c < 2; c++)
+//         {   
+//             if(a[r][c]%2==0){
+//             cout << a[r][c] + b[r][c] << "\t";
+//             }
+//             else
+//             {
+//            cout << a[r][c] - b[r][c] << "\t";     
+//             }
+//         }
+//         cout << "\n";
+//     }
+// }

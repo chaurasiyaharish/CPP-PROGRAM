@@ -1,7 +1,7 @@
 //WAP to print the sum of three digit number
 #include<iostream>
 using namespace std;
-int mmain()
+int main()
 {
     int a,b,c,d,e;
     cout<<"enter three dihgitr number\n";

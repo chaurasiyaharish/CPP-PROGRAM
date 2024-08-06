@@ -30,8 +30,8 @@ int main (){
 //Q-2 WAP to display the array in assending oder.
 
 
-#include<iostream>
-using namespace std;
-int main(){
+// #include<iostream>
+// using namespace std;
+// int main(){
     
-}
+// }

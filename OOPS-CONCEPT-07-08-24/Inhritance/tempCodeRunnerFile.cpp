@@ -1,0 +1,5 @@
+
+}
+class cybrom 
+{
+    public : cybrom()
